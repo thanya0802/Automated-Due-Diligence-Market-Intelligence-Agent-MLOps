@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+src/.DS_Store
+
+#Unwanted
+Final_Model_Pipeline/
+ARCHITECTURE.md
+debug_gemini.py
+DEVIL_IS_NEAR.zip
+README DataPipeline.md
+
+# workflows
+.github/workflows/ci.yaml
+.github/workflows/cd.yaml
+.github/workflows/pipeline.yaml
+.github/workflows/ci-cd.yml
+
+# Virtual Environment
+venv/
+Agent.venv/
+ENV/
+Deployment.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.example
+vertex-key.json
+
+# IDEs
+.vscode/
+.idea/
+
+# # Logs
+# logs/
+# *.log
+
+# Results
+results/
+
+# Docker
+docker-compose.override.yml
+
+# Qdrant
+qdrant_data/
